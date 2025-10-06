@@ -105,8 +105,8 @@ File: `lab3_tabel.html`
   </tbody>
 </table>
 ```
+<img width="256" height="137" alt="Screenshot 2025-10-06 210341" src="https://github.com/user-attachments/assets/ee2fa475-6978-4314-8be5-3445cbc8062d" />
 
-📸 *Screenshot tampilan Tabel*
 
 ---
 
@@ -125,7 +125,8 @@ File: `lab3_tabel.html`
 </tr>
 ```
 
-📸 *Screenshot tampilan penggabungan sel*
+<img width="267" height="176" alt="Screenshot 2025-10-06 210634" src="https://github.com/user-attachments/assets/1a5d0b09-9697-4ada-a883-bfa3ddc74912" />
+
 
 ---
 
