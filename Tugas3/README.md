@@ -134,6 +134,10 @@ File: `lab3_tabel.html`
 File: `lab3_form.html`
 
 ```html
+<head>
+  <title>Form Data Pelanggan</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <form action="proses.php" method="post">
   <fieldset>
     <legend>Data Pelanggan</legend>
@@ -155,7 +159,8 @@ File: `lab3_form.html`
 </form>
 ```
 
-📸 *Screenshot tampilan Form*
+<img width="848" height="286" alt="Screenshot 2025-10-06 211954" src="https://github.com/user-attachments/assets/447ed312-df34-4fba-958e-bd7fdfd962f8" />
+
 
 ---
 
@@ -180,6 +185,6 @@ form input[type="submit"] {
 </style>
 ```
 
-📸 *Screenshot tampilan Form dengan CSS*
+<img width="840" height="305" alt="Screenshot 2025-10-06 211710" src="https://github.com/user-attachments/assets/6637b640-1f80-40a7-a540-d185800d2d82" />
 
 
