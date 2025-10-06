@@ -1,19 +1,5 @@
 # Praktikum 3: Membuat List, Table dan Form
 
-## Deskripsi
-Praktikum ini bertujuan untuk memahami dan mengimplementasikan elemen-elemen dasar HTML seperti List, Table, dan Form, serta menambahkan gaya menggunakan CSS.
-
-## Struktur Folder
-```
-Lab3Web/
-├── lab3_list.html
-├── lab3_tabel.html
-├── lab3_form.html
-└── README.md
-```
-
-## Langkah Praktikum
-
 ### 1. Membuat Ordered List
 File: [`lab3_list.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/c5b6705f40837f51cbbd5fd1667bb4b8f52833b1/Tugas3/Lab3Web/lab3_list.html)
 
