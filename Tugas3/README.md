@@ -28,7 +28,8 @@ File: `lab3_list.html`
 </section>
 ```
 
-📸 *Screenshot tampilan Ordered List*
+<img width="306" height="199" alt="Screenshot 2025-10-06 204958" src="https://github.com/user-attachments/assets/c0dd8d35-7b61-4ef6-a88f-e31db54c1807" />
+
 
 ---
 
