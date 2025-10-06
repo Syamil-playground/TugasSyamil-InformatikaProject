@@ -75,7 +75,7 @@ File: [`lab3_list.html`](https://github.com/Syamil-playground/TugasSyamil-Inform
 ---
 
 ### 4. Membuat Tabel
-File: `lab3_tabel.html`
+File: [`lab3_tabel.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/4487577466c9714716ad6c74ce7d6b6572966fe7/Tugas3/Lab3Web/lab3_tabel.html)
 
 ```html
 <table border="1" cellpadding="4" cellspacing="0">
