@@ -15,7 +15,7 @@ Lab3Web/
 ## Langkah Praktikum
 
 ### 1. Membuat Ordered List
-File: `lab3_list.html`
+File: [`lab3_list.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/c5b6705f40837f51cbbd5fd1667bb4b8f52833b1/Tugas3/Lab3Web/lab3_list.html)
 
 ```html
 <section id="order-list">
