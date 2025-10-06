@@ -46,7 +46,8 @@ File: `lab3_list.html`
 </section>
 ```
 
-📸 *Screenshot tampilan Unordered List*
+<img width="342" height="282" alt="Screenshot 2025-10-06 205420" src="https://github.com/user-attachments/assets/9f14fba7-5b49-47a6-b51b-2325b4d938db" />
+
 
 ---
 
@@ -68,7 +69,8 @@ File: `lab3_list.html`
 </section>
 ```
 
-📸 *Screenshot tampilan Description List*
+<img width="413" height="521" alt="Screenshot 2025-10-06 205426" src="https://github.com/user-attachments/assets/f114a5b4-140f-43c0-bc4b-6a1cd1f47974" />
+
 
 ---
 
