@@ -131,7 +131,7 @@ File: [`lab3_tabel.html`](https://github.com/Syamil-playground/TugasSyamil-Infor
 ---
 
 ### 6. Membuat Form
-File: `lab3_form.html`
+File: [`lab3_form.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/7f542f3fe6a7de08167e15a9d1ee9158a457dd38/Tugas3/Lab3Web/lab3_form.html)
 
 ```html
 <head>
@@ -165,7 +165,7 @@ File: `lab3_form.html`
 ---
 
 ### 7. Menambahkan CSS pada Form
-
+File:[`style.css`](
 ```html
 <style>
 form p > label {
