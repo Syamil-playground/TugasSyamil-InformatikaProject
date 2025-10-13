@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>Kontak</h1>
+    </header>
+
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="about.html">About</a>
+      <a href="kontak.html" class="active">Kontak</a>
+    </nav>
+
+    <section id="hero">
+      <h1>Hubungi Saya</h1>
+      <p>Silakan isi formulir di bawah ini untuk mengirim pesan atau pertanyaan.</p>
+    </section>
+
+    <section id="wrapper">
+      <section id="main">
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Form Kontak</legend>
+            <p>
+              <label for="nama">Nama</label><br />
+              <input type="text" id="nama" name="nama" required />
+            </p>
+            <p>
+              <label for="email">Email</label><br />
+              <input type="email" id="email" name="email" required />
+            </p>
+            <p>
+              <label for="pesan">Pesan</label><br />
+              <textarea id="pesan" name="pesan" rows="5" required></textarea>
+            </p>
+            <p>
+              <button type="submit">Kirim</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+
+      <aside id="sidebar">
+        <div class="widget-box">
+          <h3 class="title">Informasi Kontak</h3>
+          <ul>
+            <li>Email: syamil@example.com</li>
+            <li>WhatsApp: 0812-3456-7890</li>
+            <li>Instagram: @syamil.dev</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+    </footer>
+  </div>
+</body>
+</html>
