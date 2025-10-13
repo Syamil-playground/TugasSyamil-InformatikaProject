@@ -223,7 +223,58 @@ File: [`about.html`](https://github.com/Syamil-playground/TugasSyamil-Informatik
 
 #### `about.html`
 ```html
+<body>
+  <div id="container">
+    <header>
+      <h1>About Me</h1>
+    </header>
 
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="about.html" class="active">About</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <section id="hero">
+      <h1>Profil dan Portofolio</h1>
+      <p>Saya adalah mahasiswa Teknik Informatika yang memiliki minat dalam pengembangan web dan desain antarmuka pengguna.</p>
+    </section>
+
+    <section id="wrapper">
+      <section id="main">
+        <article class="entry">
+          <h2>Deskripsi Diri</h2>
+          <p>Saya memiliki pengalaman dalam HTML, CSS, dan JavaScript. Saya juga aktif dalam kegiatan kampus dan komunitas teknologi.</p>
+        </article>
+
+        <article class="entry">
+          <h2>Portofolio</h2>
+          <ul>
+            <li>Website E-learning</li>
+            <li>Aplikasi To-do List</li>
+            <li>Desain UI untuk aplikasi mobile</li>
+          </ul>
+        </article>
+      </section>
+
+      <aside id="sidebar">
+        <div class="widget-box">
+          <h3 class="title">Skills</h3>
+          <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>UI/UX Design</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+    </footer>
+  </div>
 ```
 #### `kontak.html`
 ```html
