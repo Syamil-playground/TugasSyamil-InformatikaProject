@@ -210,7 +210,7 @@ footer {
 ---
 
 ### 3. Membuat about & kontak layout
-File: [`about.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/ceec9e6cfebf9164efbc99ce5e2b2ec2a857b561/Tugas4/layout%20sederhana/about.html)+[`kontak.html`]()
+File: [`about.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/ceec9e6cfebf9164efbc99ce5e2b2ec2a857b561/Tugas4/layout%20sederhana/about.html)+[`kontak.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/ceec9e6cfebf9164efbc99ce5e2b2ec2a857b561/Tugas4/layout%20sederhana/kontak.html)
 
 - Berisi deskripsi diri dan portofolio.
 
