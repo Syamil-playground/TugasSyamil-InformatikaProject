@@ -278,124 +278,80 @@ File: [`about.html`](https://github.com/Syamil-playground/TugasSyamil-Informatik
 ```
 #### `kontak.html`
 ```html
-
-
-<img width="413" height="521" alt="Screenshot 2025-10-06 205426" src="https://github.com/user-attachments/assets/f114a5b4-140f-43c0-bc4b-6a1cd1f47974" />
-
-
----
-
-### 4. Membuat Tabel
-File: [`lab3_tabel.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/4487577466c9714716ad6c74ce7d6b6572966fe7/Tugas3/Lab3Web/lab3_tabel.html)
-
-```html
-<table border="1" cellpadding="4" cellspacing="0">
-  <thead>
-    <tr>
-      <th>No.</th>
-      <th>Fakultas</th>
-      <th>Program Studi</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1.</td>
-      <td>Teknik</td>
-      <td>Teknik Informatika</td>
-    </tr>
-    <tr>
-      <td>2.</td>
-      <td>Teknik</td>
-      <td>Teknik Industri</td>
-    </tr>
-    <tr>
-      <td>3.</td>
-      <td>Teknik</td>
-      <td>Teknik Lingkungan</td>
-    </tr>
-  </tbody>
-</table>
-```
-<img width="256" height="137" alt="Screenshot 2025-10-06 210341" src="https://github.com/user-attachments/assets/ee2fa475-6978-4314-8be5-3445cbc8062d" />
-
-
----
-
-### 5. Menggabungkan Sel Data
-
-```html
-<tr>
-  <td rowspan="3">Teknik</td>
-  <td>Teknik Informatika</td>
-</tr>
-<tr>
-  <td>Teknik Industri</td>
-</tr>
-<tr>
-  <td>Teknik Lingkungan</td>
-</tr>
-```
-
-<img width="267" height="176" alt="Screenshot 2025-10-06 210634" src="https://github.com/user-attachments/assets/1a5d0b09-9697-4ada-a883-bfa3ddc74912" />
-
-
----
-
-### 6. Membuat Form
-File: [`lab3_form.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/7f542f3fe6a7de08167e15a9d1ee9158a457dd38/Tugas3/Lab3Web/lab3_form.html)
-
-```html
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Form Data Pelanggan</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<form action="proses.php" method="post">
-  <fieldset>
-    <legend>Data Pelanggan</legend>
-    <p>
-      <label for="nama">Nama</label>
-      <input type="text" id="nama" name="nama">
-    </p>
-    <p>
-      <label for="alamat">Alamat</label>
-      <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
-    </p>
-    <p>
-      <label>Jenis Kelamin</label>
-      <input id="jk_l" type="radio" name="kelamin" value="L"><label for="jk_l">Laki-laki</label>
-      <input id="jk_p" type="radio" name="kelamin" value="P"><label for="jk_p">Perempuan</label>
-    </p>
-    <p><input type="submit" value="Login"></p>
-  </fieldset>
-</form>
+<body>
+  <div id="container">
+    <header>
+      <h1>Kontak</h1>
+    </header>
+
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="about.html">About</a>
+      <a href="kontak.html" class="active">Kontak</a>
+    </nav>
+
+    <section id="hero">
+      <h1>Hubungi Saya</h1>
+      <p>Silakan isi formulir di bawah ini untuk mengirim pesan atau pertanyaan.</p>
+    </section>
+
+    <section id="wrapper">
+      <section id="main">
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Form Kontak</legend>
+            <p>
+              <label for="nama">Nama</label><br />
+              <input type="text" id="nama" name="nama" required />
+            </p>
+            <p>
+              <label for="email">Email</label><br />
+              <input type="email" id="email" name="email" required />
+            </p>
+            <p>
+              <label for="pesan">Pesan</label><br />
+              <textarea id="pesan" name="pesan" rows="5" required></textarea>
+            </p>
+            <p>
+              <button type="submit">Kirim</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+
+      <aside id="sidebar">
+        <div class="widget-box">
+          <h3 class="title">Informasi Kontak</h3>
+          <ul>
+            <li>Email: syamil@example.com</li>
+            <li>WhatsApp: 0812-3456-7890</li>
+            <li>Instagram: @syamil.dev</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+    </footer>
+  </div>
+</body>
+</html>
 ```
 
-<img width="848" height="286" alt="Screenshot 2025-10-06 211954" src="https://github.com/user-attachments/assets/447ed312-df34-4fba-958e-bd7fdfd962f8" />
+<img width="1035" height="634" alt="image" src="https://github.com/user-attachments/assets/cefa90a5-f8ba-422b-b227-164f9c60d9d3" />
+<img width="1062" height="642" alt="image" src="https://github.com/user-attachments/assets/76aa489a-b402-4ac2-a7ad-4f7bf8677073" />
 
 
----
 
-### 7. Menambahkan CSS pada Form
-File:[`style.css`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/de1feaffc3427d41a6e442db0757ffc39632a87d/Tugas3/Lab3Web/style.css)
-```html
-<style>
-form p > label {
-  display: inline-block;
-  width: 100px;
-}
-form input[type="text"], form textarea {
-  border: 1px solid #197a43;
-}
-form input[type="submit"] {
-  border: 1px solid #197a43;
-  background-color: #197a43;
-  color: #ffffff;
-  font-weight: bold;
-  padding: 5px 15px;
-}
-</style>
-```
-
-<img width="840" height="305" alt="Screenshot 2025-10-06 211710" src="https://github.com/user-attachments/assets/6637b640-1f80-40a7-a540-d185800d2d82" />
 
 
