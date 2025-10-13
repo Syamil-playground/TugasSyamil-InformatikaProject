@@ -5,11 +5,6 @@ Praktikum ini bertujuan untuk memahami dan menerapkan konsep layout pada halaman
 
 ---
 
-## 📁 Struktur Folder
-Tugas4/ │ ├── lab4_box.html ├── lab4_layout/ │   ├── home.html │   ├── about.html │   ├── kontak.html │   └── style.css
-
----
-
 ## 🧪 Langkah Praktikum
 
 ### 1. Membuat Box Element
