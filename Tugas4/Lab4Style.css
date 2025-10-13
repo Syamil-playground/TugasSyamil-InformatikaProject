@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+div {
+  float: left;
+  padding: 10px;
+}
+.div1 { background: red; }
+.div2 { background: yellow; }
+.div3 { background: green; }
+.div4 {
+  background-color: blue;
+  clear: left;
+  float: none;
+}
+nav {
+  display: block;
+  background-color: #1f5faa;
+}
+nav a {
+  padding: 15px 30px;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+  background-color: #2b83ea;
+}
