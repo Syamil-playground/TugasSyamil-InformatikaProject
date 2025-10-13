@@ -210,7 +210,7 @@ footer {
 ---
 
 ### 3. Membuat about & kontak layout
-File: [`about.html`]()+[`kontak.html`]()
+File: [`about.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/ceec9e6cfebf9164efbc99ce5e2b2ec2a857b561/Tugas4/layout%20sederhana/about.html)+[`kontak.html`]()
 
 - Berisi deskripsi diri dan portofolio.
 
@@ -223,19 +223,7 @@ File: [`about.html`]()+[`kontak.html`]()
 
 #### `about.html`
 ```html
-<section id="description-list">
-  <h2>Description List</h2>
-  <dl>
-    <dt>Fakultas Teknik</dt>
-    <dd>Teknik Industri</dd>
-    <dd>Teknik Informatika</dd>
-    <dd>Teknik Lingkungan</dd>
-    <dt>Fakultas Ekonomi dan Bisnis</dt>
-    <dd>Akuntansi</dd>
-    <dd>Manajemen</dd>
-    <dd>Bisnis Digital</dd>
-  </dl>
-</section>
+
 ```
 #### `kontak.html`
 ```html
