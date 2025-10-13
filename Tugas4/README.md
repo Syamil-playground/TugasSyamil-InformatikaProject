@@ -39,9 +39,8 @@ div {
 ### 2. Membuat Layout Sederhana
 File: [`home.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/0cbdf8ec0098ec935b4a84bea759e969a84509ff/Tugas4/layout%20sederhana/home.html)+[`style.css`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/521f8091ca84a724ce9f6372af558383ebdae107/Tugas4/layout%20sederhana/style.css)
 
-• 	Menggunakan elemen semantik: `<header>` ,`<nav>` ,`<section>` ,`<aside>` , `<footer>`
-
-• 	Menambahkan navigasi, hero panel, main content, sidebar, dan footer.
+-	Menggunakan elemen semantik: `<header>` ,`<nav>` ,`<section>` ,`<aside>` , `<footer>`
+- Menambahkan navigasi, hero panel, main content, sidebar, dan footer.
 
 #### `html` 
 ```html
@@ -153,6 +152,7 @@ nav a:hover {
   margin: 0;
 }
 #main {
+  background-color: rgb(143, 175, 175);
   float: left;
   width: 640px;
   padding: 20px;
@@ -163,6 +163,35 @@ nav a:hover {
   padding: 20px;
 }
 
+/* Widget Box */
+.widget-box {
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+.widget-box .title {
+  background-color: #428bca;
+  color: #fff;
+  padding: 10px 16px;
+}
+.widget-box ul {
+  list-style-type: none;
+}
+.widget-box li {
+  border-bottom: 1px solid #eee;
+}
+.widget-box li a {
+  padding: 10px 16px;
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+.widget-box li:hover a {
+  background-color: #eee;
+}
+.widget-box p {
+  padding: 15px;
+  line-height: 25px;
+}
 /* Footer */
 footer {
   color: #a85252;
@@ -180,8 +209,19 @@ footer {
 
 ---
 
-### 3. Membuat Kontak & About layout
+### 3. Membuat about & kontak layout
+File: [`about.html`]()+[`kontak.html`]()
 
+- Berisi deskripsi diri dan portofolio.
+
+- Berisi form input: nama, email, pesan.
+
+- Menggunakan layout yang sama seperti `home.html`.
+
+- Menggunakan layout yang sama dan styling form.
+
+
+#### `about.html`
 ```html
 <section id="description-list">
   <h2>Description List</h2>
@@ -197,6 +237,9 @@ footer {
   </dl>
 </section>
 ```
+#### `kontak.html`
+```html
+
 
 <img width="413" height="521" alt="Screenshot 2025-10-06 205426" src="https://github.com/user-attachments/assets/f114a5b4-140f-43c0-bc4b-6a1cd1f47974" />
 
