@@ -1,89 +1,176 @@
-# Praktikum 4: CSS Layout
+# Praktikum 4: css layout
 
-## 👨‍💻 Deskripsi
-Praktikum ini bertujuan untuk memahami dan menerapkan konsep layout pada halaman web menggunakan CSS dan HTML5 Semantic Elements. Hasil akhir berupa layout web sederhana yang terdiri dari header, navigasi, hero panel, main content, sidebar, dan footer.
+### 1. Membuat Ordered List
+File: [`lab3_list.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/c5b6705f40837f51cbbd5fd1667bb4b8f52833b1/Tugas3/Lab3Web/lab3_list.html)
 
----
+```html
+<section id="order-list">
+  <h2>Ordered List</h2>
+  <ol>
+    <li>Pemrograman Web</li>
+    <li>Sistem Informasi</li>
+    <li>Basis Data 2</li>
+  </ol>
+</section>
+```
 
-## 🧪 Langkah Praktikum
+<img width="306" height="199" alt="Screenshot 2025-10-06 204958" src="https://github.com/user-attachments/assets/c0dd8d35-7b61-4ef6-a88f-e31db54c1807" />
 
-### 1. Membuat Box Element
-File: `lab4_box.html`
-
-- Membuat tiga div dengan warna berbeda.
-- Menggunakan properti `float` dan `clear` untuk mengatur posisi elemen.
-
-**Screenshot:**
-![Box Element](screenshots/box-element.png)
-
----
-
-### 2. Membuat Layout Sederhana
-File: `home.html` + `style.css`
-
-- Menggunakan elemen semantik: `<header>`, `<nav>`, `<section>`, `<aside>`, `<footer>`
-- Menambahkan navigasi, hero panel, main content, sidebar, dan footer.
-
-**Screenshot:**
-![Layout Sederhana](screenshots/layout-sederhana.png)
 
 ---
 
-### 3. Menambahkan Sidebar Widget
-- Menambahkan widget link dan widget text di sidebar.
-- Menggunakan styling untuk tampilan yang rapi dan interaktif.
+### 2. Membuat Unordered List
 
-**Screenshot:**
-![Sidebar Widget](screenshots/sidebar-widget.png)
+```html
+<section id="unorder-list">
+  <h2>Unordered List</h2>
+  <ul type="square">
+    <li>Jaringan Komputer</li>
+    <li>Struktur Data</li>
+    <li>Algoritma & Pemrograman</li>
+  </ul>
+</section>
+```
 
----
+<img width="342" height="282" alt="Screenshot 2025-10-06 205420" src="https://github.com/user-attachments/assets/9f14fba7-5b49-47a6-b51b-2325b4d938db" />
 
-### 4. Menambahkan Konten Utama
-- Menambahkan box konten dengan gambar dan tombol.
-- Menambahkan artikel dengan gambar dan paragraf.
-
-**Screenshot:**
-![Main Content](screenshots/main-content.png)
-
----
-
-### 5. Menambahkan Halaman About
-File: `about.html`
-
-- Berisi deskripsi diri dan portofolio.
-- Menggunakan layout yang sama seperti `home.html`.
-
-**Screenshot:**
-![About Page](screenshots/about-page.png)
 
 ---
 
-### 6. Menambahkan Halaman Kontak
-File: `kontak.html`
+### 3. Membuat Description List
 
-- Berisi form input: nama, email, pesan.
-- Menggunakan layout yang sama dan styling form.
+```html
+<section id="description-list">
+  <h2>Description List</h2>
+  <dl>
+    <dt>Fakultas Teknik</dt>
+    <dd>Teknik Industri</dd>
+    <dd>Teknik Informatika</dd>
+    <dd>Teknik Lingkungan</dd>
+    <dt>Fakultas Ekonomi dan Bisnis</dt>
+    <dd>Akuntansi</dd>
+    <dd>Manajemen</dd>
+    <dd>Bisnis Digital</dd>
+  </dl>
+</section>
+```
 
-**Screenshot:**
-![Contact Page](screenshots/contact-page.png)
+<img width="413" height="521" alt="Screenshot 2025-10-06 205426" src="https://github.com/user-attachments/assets/f114a5b4-140f-43c0-bc4b-6a1cd1f47974" />
 
----
-
-## ✅ Validasi HTML
-Semua file HTML telah divalidasi menggunakan [W3C Validator](https://validator.w3.org) dan bebas dari error.
-
----
-
-## 📌 Kesimpulan
-Melalui praktikum ini, saya memahami:
-- Konsep box model dalam CSS
-- Penggunaan properti `float` dan `clear`
-- Struktur layout web dengan HTML5 semantic elements
-- Penerapan styling untuk membuat tampilan web yang menarik dan fungsional
 
 ---
 
-## 🔗 Repository
-URL Repository: [https://github.com/username/Lab4Web](https://github.com/username/Lab4Web)
+### 4. Membuat Tabel
+File: [`lab3_tabel.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/4487577466c9714716ad6c74ce7d6b6572966fe7/Tugas3/Lab3Web/lab3_tabel.html)
 
-> Ganti `username` dengan nama akun GitHub kamu dan pastikan semua file serta screenshot sudah di-push ke repository.
+```html
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Fakultas</th>
+      <th>Program Studi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.</td>
+      <td>Teknik</td>
+      <td>Teknik Informatika</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Teknik</td>
+      <td>Teknik Industri</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>Teknik</td>
+      <td>Teknik Lingkungan</td>
+    </tr>
+  </tbody>
+</table>
+```
+<img width="256" height="137" alt="Screenshot 2025-10-06 210341" src="https://github.com/user-attachments/assets/ee2fa475-6978-4314-8be5-3445cbc8062d" />
+
+
+---
+
+### 5. Menggabungkan Sel Data
+
+```html
+<tr>
+  <td rowspan="3">Teknik</td>
+  <td>Teknik Informatika</td>
+</tr>
+<tr>
+  <td>Teknik Industri</td>
+</tr>
+<tr>
+  <td>Teknik Lingkungan</td>
+</tr>
+```
+
+<img width="267" height="176" alt="Screenshot 2025-10-06 210634" src="https://github.com/user-attachments/assets/1a5d0b09-9697-4ada-a883-bfa3ddc74912" />
+
+
+---
+
+### 6. Membuat Form
+File: [`lab3_form.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/7f542f3fe6a7de08167e15a9d1ee9158a457dd38/Tugas3/Lab3Web/lab3_form.html)
+
+```html
+<head>
+  <title>Form Data Pelanggan</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<form action="proses.php" method="post">
+  <fieldset>
+    <legend>Data Pelanggan</legend>
+    <p>
+      <label for="nama">Nama</label>
+      <input type="text" id="nama" name="nama">
+    </p>
+    <p>
+      <label for="alamat">Alamat</label>
+      <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+    </p>
+    <p>
+      <label>Jenis Kelamin</label>
+      <input id="jk_l" type="radio" name="kelamin" value="L"><label for="jk_l">Laki-laki</label>
+      <input id="jk_p" type="radio" name="kelamin" value="P"><label for="jk_p">Perempuan</label>
+    </p>
+    <p><input type="submit" value="Login"></p>
+  </fieldset>
+</form>
+```
+
+<img width="848" height="286" alt="Screenshot 2025-10-06 211954" src="https://github.com/user-attachments/assets/447ed312-df34-4fba-958e-bd7fdfd962f8" />
+
+
+---
+
+### 7. Menambahkan CSS pada Form
+File:[`style.css`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/de1feaffc3427d41a6e442db0757ffc39632a87d/Tugas3/Lab3Web/style.css)
+```html
+<style>
+form p > label {
+  display: inline-block;
+  width: 100px;
+}
+form input[type="text"], form textarea {
+  border: 1px solid #197a43;
+}
+form input[type="submit"] {
+  border: 1px solid #197a43;
+  background-color: #197a43;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+</style>
+```
+
+<img width="840" height="305" alt="Screenshot 2025-10-06 211710" src="https://github.com/user-attachments/assets/6637b640-1f80-40a7-a540-d185800d2d82" />
+
+
