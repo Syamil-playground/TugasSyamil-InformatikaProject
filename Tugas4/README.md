@@ -3,7 +3,7 @@
 ---
 
 ### 1. Membuat Box Element
-File: `lab4_box.html`
+File: [`lab4_box.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/50501cd1be133e468397fded6f69714ac373fbed/Tugas4/lab4_box.html)+[`lab4_style.css`](
 
 - Membuat tiga div dengan warna berbeda.
 - Menggunakan properti `float` dan `clear` untuk mengatur posisi elemen.
