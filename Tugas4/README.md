@@ -8,37 +8,179 @@ File: [`lab4_box.html`](https://github.com/Syamil-playground/TugasSyamil-Informa
 - Membuat tiga div dengan warna berbeda.
 - Menggunakan properti `float` dan `clear` untuk mengatur posisi elemen.
 
+#### `html`
 ```html
 <div class="div1">Div 1</div>
 <div class="div2">Div 2</div>
 <div class="div3">Div 3</div>
 <div class="div4">Div 4</div>
 ```
-
-<img width="306" height="199" alt="Screenshot 2025-10-06 204958" src="https://github.com/user-attachments/assets/c0dd8d35-7b61-4ef6-a88f-e31db54c1807" />
-
-
----
-
-### 2. Membuat Unordered List
-
-```html
-<section id="unorder-list">
-  <h2>Unordered List</h2>
-  <ul type="square">
-    <li>Jaringan Komputer</li>
-    <li>Struktur Data</li>
-    <li>Algoritma & Pemrograman</li>
-  </ul>
-</section>
+#### `css`
+```css
+div {
+  float: left;
+  padding: 10px;
+}
+.div1 { background: red; }
+.div2 { background: yellow; }
+.div3 { background: green; }
+.div4 {
+  background-color: blue;
+  clear: left;
+  float: none;
+}
 ```
 
-<img width="342" height="282" alt="Screenshot 2025-10-06 205420" src="https://github.com/user-attachments/assets/9f14fba7-5b49-47a6-b51b-2325b4d938db" />
+<img width="476" height="276" alt="image" src="https://github.com/user-attachments/assets/cab23b79-8265-4156-a241-d2cddb8a4415" />
 
 
 ---
 
-### 3. Membuat Description List
+### 2. Membuat Layout Sederhana
+File: [`home.html`]()+[`homestyle.css`]()
+
+• 	Menggunakan elemen semantik: `<header>` ,`<nav>` ,`<section>` ,`<aside>` , `<footer>`
+
+• 	Menambahkan navigasi, hero panel, main content, sidebar, dan footer.
+
+#### `html` 
+```html
+  <div id="container">
+    <header>
+      <h1>Layout Sederhana</h1>
+    </header>
+
+    <nav>
+      <a href="home.html" class="active">Home</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="about.html">About</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <section id="hero">
+      <h1>Hello World!</h1>
+      <p>Selamat datang di website sederhana kami.</p>
+      <a href="#" class="btn">Learn more »</a>
+    </section>
+
+    <section id="wrapper">
+      <section id="main">
+        <p>Ini adalah konten utama.</p>
+      </section>
+      <aside id="sidebar">
+        <p>Ini adalah sidebar.</p>
+      </aside>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+    </footer>
+  </div>
+```
+
+#### `css`
+```css
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+#container {
+  width: 980px;
+  margin: 0 auto;
+  box-shadow: 0 0 1em #ccc;
+}
+
+/* Header */
+header {
+  background-color: #dff0d8;
+  padding: 20px;
+}
+header h1 {
+  color: #a85252;
+}
+
+nav {
+  background-color: #1f5faa;
+}
+nav a {
+  padding: 15px 30px;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a.active,
+nav a:hover {
+  background-color: #2b83ea;
+}
+/* Hero Section */
+#hero {
+  background-color: #e4e4e5;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+}
+#hero h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+#hero p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.btn {
+  background-color: #337ab7;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+/* Main Content */
+#wrapper {
+  margin: 0;
+}
+#main {
+  float: left;
+  width: 640px;
+  padding: 20px;
+}
+#sidebar {
+  float: left;
+  width: 260px;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  color: #a85252;
+  background-color: #f7ecb5;
+  text-align: center;
+  padding: 15px;
+  clear: both;
+}
+```
+
+<img width="1044" height="625" alt="image" src="https://github.com/user-attachments/assets/f064a24b-14c7-4322-b269-e44f54455ad0" />
+
+
+
+
+---
+
+### 3. Membuat Kontak & About layout
 
 ```html
 <section id="description-list">
