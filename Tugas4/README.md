@@ -1,17 +1,18 @@
 # Praktikum 4: css layout
 
-### 1. Membuat Ordered List
-File: [`lab3_list.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/c5b6705f40837f51cbbd5fd1667bb4b8f52833b1/Tugas3/Lab3Web/lab3_list.html)
+---
+
+### 1. Membuat Box Element
+File: `lab4_box.html`
+
+- Membuat tiga div dengan warna berbeda.
+- Menggunakan properti `float` dan `clear` untuk mengatur posisi elemen.
 
 ```html
-<section id="order-list">
-  <h2>Ordered List</h2>
-  <ol>
-    <li>Pemrograman Web</li>
-    <li>Sistem Informasi</li>
-    <li>Basis Data 2</li>
-  </ol>
-</section>
+<div class="div1">Div 1</div>
+<div class="div2">Div 2</div>
+<div class="div3">Div 3</div>
+<div class="div4">Div 4</div>
 ```
 
 <img width="306" height="199" alt="Screenshot 2025-10-06 204958" src="https://github.com/user-attachments/assets/c0dd8d35-7b61-4ef6-a88f-e31db54c1807" />
