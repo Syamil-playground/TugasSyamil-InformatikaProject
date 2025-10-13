@@ -37,7 +37,7 @@ div {
 ---
 
 ### 2. Membuat Layout Sederhana
-File: [`home.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/0cbdf8ec0098ec935b4a84bea759e969a84509ff/Tugas4/layout%20sederhana/home.html)+[`style.css`]()
+File: [`home.html`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/0cbdf8ec0098ec935b4a84bea759e969a84509ff/Tugas4/layout%20sederhana/home.html)+[`style.css`](https://github.com/Syamil-playground/TugasSyamil-InformatikaProject/blob/521f8091ca84a724ce9f6372af558383ebdae107/Tugas4/layout%20sederhana/style.css)
 
 • 	Menggunakan elemen semantik: `<header>` ,`<nav>` ,`<section>` ,`<aside>` , `<footer>`
 
