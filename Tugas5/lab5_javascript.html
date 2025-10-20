@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mengenal JavaScript</title>
+</head>
+<script>
+  function pesan() {
+    alert("Memanggil JavaScript lewat body onload");
+  }
+</script>
+<body onload="pesan()">
+  
+</body>
+<body>
+  <h1>Pengenalan JavaScript</h1>
+  <h3>Contoh document.write dan console.log</h3>
+  <script>
+  document.write("Hello World");
+   console.log("Hello World");
+  window.alert("Ini merupakan pesan untuk anda");
+  document.write("Selamat mencoba JavaScript<br>");
+  document.write("Semoga sukses!");
+  var nama = prompt("Siapa nama anda?", "Masukkan nama anda");
+  document.write("Hai, " + nama)
+  function test(val1, val2) {
+    document.write("Perkalian: " + val1 * val2 + "<br>");
+    document.write("Pembagian: " + val1 / val2 + "<br>");
+    document.write("Penjumlahan: " + (val1 + val2) + "<br>");
+    document.write("Pengurangan: " + (val1 - val2) + "<br>");
+    document.write("Modulus: " + (val1 % val2) + "<br>");
+  }
+</script>
+<input type="button" value="Aritmatika" onclick="test(9,4)">
+</script>
+<script>
+  var nilai = prompt("Nilai (0-100): ", 0);
+  var hasil = (nilai >= 60) ? "Lulus" : "Tidak Lulus";
+  document.write("Hasil: " + hasil);
+</script>
+<script>
+  function test() {
+    var val1 = prompt("Input nilai (1-5):");
+    switch (val1) {
+      case "1": document.write("Bilangan satu"); break;
+      case "2": document.write("Bilangan dua"); break;
+      case "3": document.write("Bilangan tiga"); break;
+      case "4": document.write("Bilangan empat"); break;
+      case "5": document.write("Bilangan lima"); break;
+      default: document.write("Bilangan lainnya");
+    }
+  }
+</script>
+<input type="button" value="Switch" onclick="test()">
+<script>
+  function test() {
+    var val1 = document.kirim.T1.value;
+    document.kirim.T2.value = (val1 % 2 == 0) ? "Bilangan Genap" : "Bilangan Ganjil";
+  }
+</script>
+<form name="kirim">
+  <p>BIL <input type="text" name="T1"> MERUPAKAN BIL <input type="text" name="T2"></p>
+  <input type="button" value="TEBAK" onclick="test()">
+</form>
+<script>
+  function ubahWarnaLB(warna) {
+    document.bgColor = warna;
+  }
+  function ubahWarnaLD(warna) {
+    document.fgColor = warna;
+  }
+</script>
+<form>
+  <input type="button" value="Latar Hijau" onclick="ubahWarnaLB('GREEN')">
+  <input type="button" value="Latar Putih" onclick="ubahWarnaLB('WHITE')">
+  <input type="button" value="Teks Kuning" onclick="ubahWarnaLD('YELLOW')">
+  <input type="button" value="Teks Biru" onclick="ubahWarnaLD('BLUE')">
+</form>
+<script>
+  function hitung(ele) {
+    var total = document.getElementById('total').value;
+    total = total ? parseInt(total) : 0;
+    var harga = parseInt(ele.value);
+    total += ele.checked ? harga : -harga;
+    document.getElementById('total').value = total;
+  }
+</script>
+<h1>Daftar Menu</h1>
+<label><input type="checkbox" value="5000" onclick="hitung(this)"> Ayam Goreng Rp. 5.000</label><br>
+<label><input type="checkbox" value="500" onclick="hitung(this)"> Tempe Goreng Rp. 500</label><br>
+<label><input type="checkbox" value="2500" onclick="hitung(this)"> Telur Dadar Rp. 2.500</label><br>
+<strong>Total Bayar: Rp. <input id="total" type="text"></strong>
+
+
+</body>
+</html>    
