@@ -1,58 +1,31 @@
-Praktikum 5: JavaScript – Pemrograman Web
-
-🎯 Tujuan Praktikum
-
-- Memahami sintaks dasar JavaScript
-- Menggunakan JavaScript untuk manipulasi HTML
-- Membuat kode JavaScript sederhana
-- Mengintegrasikan JavaScript ke dalam dokumen HTML
+# Praktikum 5: JavaScript – Pemrograman Web
 
 ---
 
-🧰 Persiapan
+## 1. Pengenalan JavaScript
 
-1. Install text editor seperti Visual Studio Code
-2. Buat folder baru dengan nama lab5_javascript
-3. Validasi dokumen HTML di W3C Validator
-
----
-
-📁 Struktur File
-
-`
-lab5_javascript/
-├── lab5_javascript.html
-├── eksternal.js
-├── daftar_menu.html
-└── README.md
-`
-
----
-
-🧪 Langkah Praktikum
-
-1. Pengenalan JavaScript
-
-`html
+```html
 <script>
   document.write("Hello World");
   console.log("Hello World");
 </script>
-`
+```
 
-📸 Screenshot hasil tampilan Hello World
+![Screenshot_20251020-205736](https://github.com/user-attachments/assets/fbf2020d-f600-4ef6-8ca6-5e6a343d4e79)
+hasil tampilan Hello World
 
 ---
 
-2. Alert Box
+## 2. Alert Box
 
-`html
+```html
 <script>
   window.alert("Ini merupakan pesan untuk anda");
 </script>
-`
+```
+![Screenshot_20251020-205838](https://github.com/user-attachments/assets/1608655f-b97e-43f0-86aa-aee10ebe24d8)
 
-📸 Screenshot alert box
+
 
 ---
 
