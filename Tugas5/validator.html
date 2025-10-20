@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mengenal JavaScript</title>
+</head>
+<body>
+  <script>
+  function validateForm() {
+    var x = document.forms["myForm"]["nama"].value;
+    if (x == "") {
+      alert("Nama harus diisi");
+      return false;
+    }
+  }
+</script>
+<form name="myForm" onsubmit="return validateForm()">
+  Nama: <input type="text" name="nama">
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
