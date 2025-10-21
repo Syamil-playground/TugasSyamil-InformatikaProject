@@ -29,35 +29,36 @@ hasil tampilan Hello World
 
 ---
 
-3. Menulis ke Dokumen
+## 3. Menulis ke Dokumen
 
-`html
+```html
 <script>
   document.write("Selamat mencoba JavaScript<br>");
   document.write("Semoga sukses!");
 </script>
-`
+```
+![Screenshot_20251020-210728](https://github.com/user-attachments/assets/e39e0572-412b-481d-b351-524a88719574)
 
-📸 Screenshot hasil document.write
 
 ---
 
-4. Prompt Input
+## 4. Prompt Input
 
-`html
+```html
 <script>
   var nama = prompt("Siapa nama anda?", "Masukkan nama anda");
   document.write("Hai, " + nama);
 </script>
-`
+```
+![Screenshot_20251020-210929](https://github.com/user-attachments/assets/438bb091-8ca3-4f95-a147-593b5fb6960c)
+![Screenshot_20251020-210946](https://github.com/user-attachments/assets/10c6ebdf-f30a-412e-9380-8df5be82768d)
 
-📸 Screenshot prompt dan hasilnya
 
 ---
 
-5. Fungsi dan Pemanggilan
+## 5. Fungsi dan Pemanggilan
 
-`html
+```html
 <script>
   function pesan() {
     alert("Memanggil JavaScript lewat body onload");
@@ -65,15 +66,16 @@ hasil tampilan Hello World
 </script>
 <body onload="pesan()">
 </body>
-`
+```
 
-📸 Screenshot alert saat halaman dimuat
+![Screenshot_20251020-211446](https://github.com/user-attachments/assets/04f1f78b-9558-447f-8328-ea773ab8d856)
+
 
 ---
 
-6. Operasi Aritmatika
+## 6. Operasi Aritmatika
 
-`html
+```html
 <script>
   function test(val1, val2) {
     document.write("Perkalian: " + val1 * val2 + "<br>");
@@ -84,29 +86,35 @@ hasil tampilan Hello World
   }
 </script>
 <input type="button" value="Aritmatika" onclick="test(9,4)">
-`
+```
 
-📸 Screenshot hasil operasi aritmatika
+![Screenshot_20251020-212005](https://github.com/user-attachments/assets/c67b7c40-a12d-49f6-9acb-477e6b3ff72c)
+![Screenshot_20251020-212005](https://github.com/user-attachments/assets/f95ba776-34ff-43c9-850b-6721b0e7ccc3)
+
 
 ---
 
-7. Seleksi Kondisi (if..else)
+## 7. Seleksi Kondisi (if..else)
 
-`html
+```html
 <script>
   var nilai = prompt("Nilai (0-100): ", 0);
   var hasil = (nilai >= 60) ? "Lulus" : "Tidak Lulus";
   document.write("Hasil: " + hasil);
 </script>
-`
+```
+![Screenshot_20251020-212328](https://github.com/user-attachments/assets/d3457727-896c-44fe-ae17-77844579be45)
+![Screenshot_20251020-212335](https://github.com/user-attachments/assets/d84e66c6-faec-44b0-9b18-9d0d623ffdbb)
+![Screenshot_20251020-212344](https://github.com/user-attachments/assets/22fef0d4-ae69-4faa-aa9b-b68ba01755a0)
+![Screenshot_20251020-212349](https://github.com/user-attachments/assets/1e48e381-db35-4539-a06d-01c19e9f6142)
 
-📸 Screenshot hasil seleksi kondisi
+
 
 ---
 
-8. Seleksi Kondisi (switch)
+## 8. Seleksi Kondisi (switch)
 
-`html
+```html
 <script>
   function test() {
     var val1 = prompt("Input nilai (1-5):");
@@ -121,15 +129,16 @@ hasil tampilan Hello World
   }
 </script>
 <input type="button" value="Switch" onclick="test()">
-`
+```
 
-📸 Screenshot hasil switch case
 
+![Screenshot_20251021-053957](https://github.com/user-attachments/assets/eb4d72c8-f950-4a6a-bef0-40262ece3712)![Screenshot_20251021-054005](https://github.com/user-attachments/assets/7fedb938-94c5-4d57-8e9b-7a448bbabebe)
+![Screenshot_20251021-054008](https://github.com/user-attachments/assets/5d57394f-b4b2-4da5-aef8-42d3a541a90e)
 ---
 
-9. Form Input: Genap/Ganjil
+## 9. Form Input: Genap/Ganjil
 
-`html
+```html
 <script>
   function test() {
     var val1 = document.kirim.T1.value;
@@ -141,15 +150,16 @@ hasil tampilan Hello World
   <input type="text" name="T2">
   <input type="button" value="Tebak" onclick="test()">
 </form>
-`
+```
+![Screenshot_20251021-054216](https://github.com/user-attachments/assets/c2d64349-0258-4166-920b-0467da3c6b8a)
+![Screenshot_20251021-054224](https://github.com/user-attachments/assets/08830cd3-7354-4b4e-b47d-c72d154ed91c)
 
-📸 Screenshot hasil tebakan bilangan
 
 ---
 
-10. Form Button: Ubah Warna
+## 10. Form Button: Ubah Warna
 
-`html
+```html
 <script>
   function ubahWarnaLB(warna) {
     document.bgColor = warna;
@@ -164,15 +174,19 @@ hasil tampilan Hello World
   <input type="button" value="Kuning" onclick="ubahWarnaLD('YELLOW')">
   <input type="button" value="Biru" onclick="ubahWarnaLD('BLUE')">
 </form>
-`
+```
+![Screenshot_20251021-054330](https://github.com/user-attachments/assets/5d47f7cf-0e2d-49ad-a2b1-85e47593e9f9)
+![Screenshot_20251021-054347](https://github.com/user-attachments/assets/024748ce-b4ce-424d-b11e-fcf881f725ea)
+![Screenshot_20251021-054350](https://github.com/user-attachments/assets/ac4b44df-1256-44a7-a4a3-d668eb2e25bb)
+![Screenshot_20251021-054342](https://github.com/user-attachments/assets/8274e02f-8833-47b1-9afa-2623fe5bfb9d)
+![Screenshot_20251021-054344](https://github.com/user-attachments/assets/d8976ac0-ab08-4f5e-9395-02f6832e1960)
 
-📸 Screenshot perubahan warna latar dan teks
 
 ---
 
-11. HTML DOM: CheckBox Total Harga
+## 11. HTML DOM: CheckBox Total Harga
 
-`html
+```html
 <script>
   function hitung(ele) {
     var total = document.getElementById('total').value;
@@ -186,15 +200,16 @@ hasil tampilan Hello World
 <label><input type="checkbox" value="500" onclick="hitung(this)"> Tempe Goreng</label><br>
 <label><input type="checkbox" value="2500" onclick="hitung(this)"> Telur Dadar</label><br>
 <strong>Total Bayar: Rp. <input id="total" type="text"></strong>
-`
-
-📸 Screenshot perhitungan otomatis total harga
+```
+![Screenshot_20251021-054422](https://github.com/user-attachments/assets/a16676d9-2087-494c-94ad-e781141a4251)
+![Screenshot_20251021-054425](https://github.com/user-attachments/assets/dac5f165-b006-4590-b795-216694f11a1e)
+![Screenshot_20251021-054428](https://github.com/user-attachments/assets/b056fbb1-914c-4c7b-842b-8b8db69fdb64)
 
 ---
 
 ✅ Tugas Tambahan: Validasi Form
 
-`html
+```html
 <script>
   function validateForm() {
     var x = document.forms["myForm"]["nama"].value;
@@ -208,6 +223,8 @@ hasil tampilan Hello World
   Nama: <input type="text" name="nama">
   <input type="submit" value="Submit">
 </form>
-`
+```
+![Screenshot_20251021-055015](https://github.com/user-attachments/assets/cad454fb-d0fb-4a3b-b4b6-b15145a6929e)
+![Screenshot_20251021-055021](https://github.com/user-attachments/assets/197d4065-b042-4ae8-885a-ba7371c7f604)
 
-📸 Screenshot validasi form
+
