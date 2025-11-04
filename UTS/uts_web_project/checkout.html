@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Sistem Katalog Buku</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="main-page">
+    <nav>
+        <h1>Checkout Buku</h1>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="stok.html">Stok Buku</a></li>
+            <li><a href="tracking.html">Tracking</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="index.html" id="logout">Logout</a></li>
+        </ul>
+    </nav>
+    <div class="checkout-container">
+  <h2>🛒 Pemesanan Buku</h2>
+
+  <form id="checkoutForm" class="checkout-form">
+    <label for="bookSelect">Pilih Buku</label>
+    <select id="bookSelect" required></select>
+
+    <label for="borrowerName">Nama Pemesan</label>
+    <input id="borrowerName" type="text" placeholder="Masukkan nama lengkap" required>
+
+    <label for="borrowDate">Tanggal Pemesanan</label>
+    <input id="borrowDate" type="date" required>
+
+    <button type="submit">Pesan Sekarang</button>
+  </form>
+
+  <h3>📚 Riwayat Pesanan</h3>
+<table id="riwayatTransaksi">
+  <thead>
+    <tr>
+      <th>Kode Buku</th>
+      <th>Judul</th>
+      <th>Pemesan</th>
+      <th>Tanggal</th>
+      <th>Harga</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+</div>
+
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

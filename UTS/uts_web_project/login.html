@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login - Toko Buku</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+  .container {
+    max-width: 600px;
+    width: 200%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 24px;
+  }
+#togglePassword, #togglePasswordReg {
+  position: absolute;
+  right: 12px;
+  top: 70%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #777;
+  font-size: 18px;
+}
+#togglePassword:hover, #togglePasswordReg:hover {
+  color: #000;
+}
+
+
+
+</style>
+</head>
+<body class="login-page">
+  <main class="container" role="main">
+    <header class="site-header">
+      <h1>Toko Buku - Login</h1>
+    </header>
+
+   <section aria-labelledby="login-heading">
+  <h2 id="login-heading">Masuk</h2>
+  <form id="loginForm">
+    <div class="form-row">
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="email@domain.com" required>
+    </div>
+    <div class="form-row" style="position: relative;">
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="password" required>
+      <i class="fa fa-eye" id="togglePassword" title="Lihat Password"></i>
+    </div>
+    <div class="form-row">
+      <button type="submit" class="btn btn-primary">Login</button>
+      <button id="btnShowForgot" type="button" class="btn btn-ghost">Lupa Password</button>
+      <button id="btnShowRegister" type="button" class="btn btn-ghost">Daftar</button>
+    </div>
+  </form>
+</section>
+
+    <p class="footer small">&copy; UTS - Muhammad Syamil Asy Syabab</p>
+  </main>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

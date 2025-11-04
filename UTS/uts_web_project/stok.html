@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stok Buku - Sistem Katalog Buku</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="main-page">
+  <!-- konten utama -->
+</body>
+
+    <nav>
+        <h1>Stok Buku</h1>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="stok.html">Stok Buku</a></li>
+            <li><a href="tracking.html">Tracking</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="index.html" id="logout">Logout</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Katalog Buku</h2>
+        <div id="katalogBuku" class="book-grid">
+            <!-- Katalog buku akan dimuat di sini -->
+        </div>
+    </div>
+
+    <h2>➕ Tambah Buku Baru</h2>
+<form id="addBookForm" class="form-tambah-buku">
+  <div class="form-row">
+    <label for="kodeBuku">Kode Buku</label>
+    <input type="text" id="kodeBuku" placeholder="Contoh: BK003" required>
+  </div>
+
+  <div class="form-row">
+    <label for="namaBuku">Nama Buku</label>
+    <input type="text" id="namaBuku" placeholder="Nama Buku" required>
+  </div>
+
+  <div class="form-row">
+    <label for="hargaBuku">Harga Buku</label>
+    <input type="number" id="hargaBuku" placeholder="Contoh: 85000" required>
+  </div>
+
+  <div class="form-row">
+    <label for="stokBuku">Jumlah Stok</label>
+    <input type="number" id="stokBuku" placeholder="Contoh: 10" required>
+  </div>
+
+  <div class="form-row">
+    <label for="edisiBuku">Edisi (Opsional)</label>
+    <input type="text" id="edisiBuku" placeholder="Edisi ke-2">
+  </div>
+
+  <div class="form-row">
+    <label for="jenisBuku">Jenis (Opsional)</label>
+    <input type="text" id="jenisBuku" placeholder="Kategori / Jenis Buku">
+  </div>
+
+  <div class="form-row">
+    <label for="gambarBuku">Unggah Gambar Buku</label>
+    <input type="file" id="gambarBuku" accept="image/*">
+  </div>
+
+  <button type="submit">Tambah Stok Buku</button>
+</form>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

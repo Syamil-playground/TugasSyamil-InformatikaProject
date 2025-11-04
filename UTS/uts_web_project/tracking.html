@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking - Sistem Katalog Buku</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="main-page">
+  <nav>
+    <h1>Tracking Pengiriman</h1>
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="stok.html">Stok Buku</a></li>
+      <li><a href="tracking.html" class="active">Tracking</a></li>
+      <li><a href="checkout.html">Checkout</a></li>
+      <li><a href="#" id="logout">Logout</a></li>
+    </ul>
+  </nav>
+
+  <div class="tracking-container">
+  <h2>🔍 Lacak Pengiriman Buku</h2>
+
+  <form id="trackingForm" class="form-tracking">
+    <input type="text" id="searchDO" placeholder="Masukkan Nomor DO / Resi" required>
+    <button type="submit">Cari</button>
+  </form>
+
+  <div id="trackingResult" class="tracking-result">
+    <!-- Hasil tracking akan muncul di sini -->
+  </div>
+</div>
+
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
