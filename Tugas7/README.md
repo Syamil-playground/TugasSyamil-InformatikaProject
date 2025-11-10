@@ -21,8 +21,7 @@ lab7_php_dasar/
 
 ---
 
-## ⚙️ Persiapan Lingkungan
-
+## ⚙️ Persiapan 
 1. **Install XAMPP**
    - Unduh dan instal XAMPP sesuai sistem operasi Anda.  
    - Jalankan **Apache** (dan **MySQL** jika diperlukan).
@@ -94,10 +93,14 @@ switch ($pekerjaan) {
 
 > Ganti bagian ini dengan screenshot hasil Anda:
 
-* `php_dasar.php` di browser
-* `latihan_get.php` dengan parameter
-* `latihan_post.php` setelah submit
-* `tugas.php` dengan hasil perhitungan umur & gaji
+* `php_dasar.php` <img width="498" height="339" alt="Screenshot 2025-11-10 225014" src="https://github.com/user-attachments/assets/290a2be2-3ff0-49dd-8f6c-028a3c2c64b2" />
+
+* `latihan_get.php` <img width="528" height="189" alt="Screenshot 2025-11-10 225228" src="https://github.com/user-attachments/assets/86a6aad9-c8ec-444d-ba28-f089ca4c0c91" />
+
+* `latihan_post.php` <img width="458" height="263" alt="Screenshot 2025-11-10 225313" src="https://github.com/user-attachments/assets/684fe0dc-a845-417a-8c5d-f9c0c774045f" />
+
+* `tugas.php` <img width="464" height="546" alt="Screenshot 2025-11-10 225510" src="https://github.com/user-attachments/assets/658fc3af-2ff6-4c94-be79-528f28e314f1" />
+
 
 Contoh:
 
