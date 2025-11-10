@@ -5,8 +5,8 @@
   <h1>Belajar PHP Dasar</h1>
   <?php
     echo "Hello World";
-    $nim = "0411500400";
-    $nama = 'Abdullah';
+    $nim = "312410244";
+    $nama = 'Muhammad Syamil Asy Syabab';
     echo "<br>NIM : " . $nim;
     echo "<br>Nama : $nama";
   ?>
