@@ -26,14 +26,9 @@ Lab8Web/
 │── hapus.php
 │── koneksi.php
 │── style.css
-│── README.md
-│── .gitignore (opsional)
 │
 ├── gambar/
 │ └── (file gambar yang di-upload)
-│
-└── screenshots/
-└── (isi screenshot langkah-langkah)
 ```
 
 ---
