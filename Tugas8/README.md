@@ -67,10 +67,11 @@ harga_beli DECIMAL(10,0),
 harga_jual DECIMAL(10,0),
 stok INT(4)
 );
+```
 🔗 koneksi.php — File Koneksi Database
 File ini menghubungkan PHP ke MySQL.
 
-php
+```php
 Copy code
 <?php
 error_reporting(E_ALL);
@@ -89,22 +90,19 @@ if (!$conn) {
 
 echo "Koneksi Berhasil!";
 ?>
+```
 File ini digunakan di semua file lain:
-
-php
-Copy code
+```php
 include "koneksi.php";
+```
 📄 Penjelasan Setiap File
 1. index.php (READ)
 Menampilkan seluruh data barang dari database.
 
 Menyediakan tombol:
-
-Tambah Barang
-
-Ubah
-
-Hapus
+- Tambah Barang
+- Ubah
+- Hapus
 
 2. tambah.php (CREATE)
 Menambahkan data barang baru.
@@ -130,26 +128,18 @@ Copy code
 C:\xampp\htdocs\
 Jalankan:
 
-bash
-Copy code
+```
 http://localhost/Lab8Web/index.php
+```
 Coba fitur:
+- Tambah barang
+- Edit barang
+- Hapus barang
 
-Tambah barang
+🖼️ Screenshot
+<img width="1319" height="308" alt="image" src="https://github.com/user-attachments/assets/5bd7ce5a-7396-4822-9954-cdf7b2423b86" />
 
-Edit barang
-
-Hapus barang
-
-🖼️ Screenshot (Isi dengan screenshot asli Anda)
-Silakan ganti gambar berikut di folder /screenshots:
-
-/screenshots/01_koneksi.png
-
-/screenshots/02_index.png
-
-/screenshots/03_tambah.png
-
-/screenshots/04_ubah.png
-
-/screenshots/05_hapus.png
+<img width="1321" height="665" alt="image" src="https://github.com/user-attachments/assets/992c66d5-7278-4b4e-964d-b78ba98747c8" />
+<img width="1320" height="421" alt="image" src="https://github.com/user-attachments/assets/6d0e0b37-f83a-4e3e-8e08-8642ff6eba29" />
+<img width="1297" height="652" alt="image" src="https://github.com/user-attachments/assets/64e843a3-d9cf-4f41-b01c-4cd52b5917e8" />
+<img width="1323" height="333" alt="image" src="https://github.com/user-attachments/assets/f661a32e-3e53-4bba-963a-e49612b22b39" />
