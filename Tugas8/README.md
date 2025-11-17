@@ -1,49 +1,155 @@
-# Lab8Web - Praktikum 8 (PHP & MySQL)
+# Praktikum 8 - PHP dan Database MySQL
 
-**Isi repository ini** (dihasilkan otomatis):
-- koneksi.php
-- index.php
-- tambah.php
-- ubah.php
-- hapus.php
-- style.css
-- folder `gambar/` (tempat upload gambar)
-- folder `screenshots/` (placeholder screenshot untuk dokumentasi)
+Repository ini berisi hasil pengerjaan Praktikum 8 Mata Kuliah Pemrograman Web.  
+Pada praktikum ini dibuat aplikasi CRUD (Create, Read, Update, Delete) sederhana menggunakan PHP dan database MySQL dengan studi kasus Data Barang.
 
-## Langkah pengerjaan praktikum
-1. Jalankan XAMPP (Apache + MySQL).
-2. Buat database `latihan1` di phpMyAdmin, lalu buat tabel `data_barang`:
+---
+
+## 📌 Tujuan Praktikum
+1. Memahami dasar-dasar penggunaan database MySQL.
+2. Menghubungkan PHP dengan database menggunakan mysqli.
+3. Membuat fitur CRUD:
+   - Create (Tambah Data)
+   - Read (Menampilkan Data)
+   - Update (Mengubah Data)
+   - Delete (Menghapus Data)
+4. Menerapkan upload file (gambar barang).
+
+---
+
+## 📂 Struktur Direktori
+```
+Lab8Web/
+│── index.php
+│── tambah.php
+│── ubah.php
+│── hapus.php
+│── koneksi.php
+│── style.css
+│── README.md
+│── .gitignore (opsional)
+│
+├── gambar/
+│ └── (file gambar yang di-upload)
+│
+└── screenshots/
+└── (isi screenshot langkah-langkah)
+```
+
+---
+
+## 🛠 Persiapan Alat
+Sebelum memulai, lakukan hal berikut:
+
+1. Install **XAMPP**.
+2. Jalankan **Apache** dan **MySQL** di XAMPP Control Panel.
+3. Akses phpMyAdmin:
+http://localhost/phpmyadmin/
+
+sql
+Copy code
+
+---
+
+## 🗄️ Membuat Database & Tabel
+Jalankan SQL berikut:
+
 ```sql
 CREATE DATABASE latihan1;
 USE latihan1;
 
 CREATE TABLE data_barang (
-  id_barang int(10) auto_increment PRIMARY KEY,
-  kategori varchar(30),
-  nama varchar(30),
-  gambar varchar(100),
-  harga_beli decimal(10,0),
-  harga_jual decimal(10,0),
-  stok int(4)
+id_barang INT(10) AUTO_INCREMENT PRIMARY KEY,
+kategori VARCHAR(30),
+nama VARCHAR(30),
+gambar VARCHAR(100),
+harga_beli DECIMAL(10,0),
+harga_jual DECIMAL(10,0),
+stok INT(4)
 );
-```
-3. Copy folder `Lab8Web` ke `htdocs` (atau direktori webserver Anda).
-4. Buka http://localhost/Lab8Web/index.php untuk melihat daftar barang.
-5. Gunakan halaman *Tambah Barang* untuk menambahkan data (dengan upload gambar).
-6. Ubah / hapus data menggunakan tombol yang tersedia.
+🔗 koneksi.php — File Koneksi Database
+File ini menghubungkan PHP ke MySQL.
 
-## README - Dokumentasi & Screenshot
-Contoh nama screenshot:
-- screenshots/01_koneksi.png (tes koneksi php)
-- screenshots/02_index.png (tampilan index)
-- screenshots/03_tambah.png (form tambah)
-- screenshots/04_ubah.png (form ubah)
+php
+Copy code
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-> Catatan: file screenshot di folder `screenshots/` saat ini adalah **placeholder**. Ganti dengan screenshot hasil praktik sebenarnya ketika melakukan tugas.
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "latihan1";
 
-## README - Instruksi pengumpulan
-1. Commit semua file ke repository `Lab8Web` di GitHub.
-2. Sertakan screenshot setiap langkah (sesuai instruksi praktikum).
-3. Upload link repository ke e-learning / ecampus.
+$conn = mysqli_connect($host, $user, $pass, $db);
 
--- Selesai --
+if (!$conn) {
+    die("Koneksi gagal: " . mysqli_connect_error());
+}
+
+echo "Koneksi Berhasil!";
+?>
+File ini digunakan di semua file lain:
+
+php
+Copy code
+include "koneksi.php";
+📄 Penjelasan Setiap File
+1. index.php (READ)
+Menampilkan seluruh data barang dari database.
+
+Menyediakan tombol:
+
+Tambah Barang
+
+Ubah
+
+Hapus
+
+2. tambah.php (CREATE)
+Menambahkan data barang baru.
+
+Mendukung upload gambar.
+
+3. ubah.php (UPDATE)
+Mengubah data barang yang sudah ada.
+
+Bisa mengganti gambar atau tetap menggunakan yang lama.
+
+4. hapus.php (DELETE)
+Menghapus data barang berdasarkan id_barang.
+
+5. style.css
+Mengatur tampilan layout agar lebih rapi.
+
+🧪 Cara Menjalankan Aplikasi
+Copy folder Lab8Web ke:
+
+makefile
+Copy code
+C:\xampp\htdocs\
+Jalankan:
+
+bash
+Copy code
+http://localhost/Lab8Web/index.php
+Coba fitur:
+
+Tambah barang
+
+Edit barang
+
+Hapus barang
+
+🖼️ Screenshot (Isi dengan screenshot asli Anda)
+Silakan ganti gambar berikut di folder /screenshots:
+
+/screenshots/01_koneksi.png
+
+/screenshots/02_index.png
+
+/screenshots/03_tambah.png
+
+/screenshots/04_ubah.png
+
+/screenshots/05_hapus.png
