@@ -28,7 +28,7 @@ Lab8Web/
 │── style.css
 │
 ├── gambar/
-│ └── (file gambar yang di-upload)
+└── (file gambar yang di-upload)
 ```
 
 ---
@@ -39,10 +39,9 @@ Sebelum memulai, lakukan hal berikut:
 1. Install **XAMPP**.
 2. Jalankan **Apache** dan **MySQL** di XAMPP Control Panel.
 3. Akses phpMyAdmin:
+```
 http://localhost/phpmyadmin/
-
-sql
-Copy code
+```
 
 ---
 
@@ -67,7 +66,6 @@ stok INT(4)
 File ini menghubungkan PHP ke MySQL.
 
 ```php
-Copy code
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
